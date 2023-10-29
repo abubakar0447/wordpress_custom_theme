@@ -1,0 +1,8 @@
+# Ignore all files and folders except the specified plugin and theme folders
+/*
+
+# Unignore the plugin folder
+!/wp-content/plugins/FAQ plugin/
+
+# Unignore the theme folder
+!/wp-content/themes/custom theme/
