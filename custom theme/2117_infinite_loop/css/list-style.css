@@ -1,0 +1,66 @@
+.country-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+}
+
+.country-list li {
+    margin: 10px 10px 0 0;
+    /* Add spacing between list items and adjust as needed */
+    width: calc((100% - 60px) / 5);
+    /* Calculate the width to fit 5 items in a row with margins included */
+    box-sizing: border-box;
+    /* Ensure the width includes margins */
+}
+
+.country-list li img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+/* Apply basic styles to the menu */
+.menu-list {
+    list-style: none;
+    /* Remove list bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Display the list horizontally */
+    margin-left: 30px;
+}
+
+.menu-list li {
+    margin-right: 15px;
+    /* Add spacing between menu items */
+}
+
+.menu-list a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #007bff;
+    /* Set the text color */
+}
+
+/* Add a hover effect for links */
+.menu-list a:hover {
+    color: white;
+    /* Change text color on hover */
+}
+
+#navbarSupportedContent {
+    display: flex;
+    /* Display its contents horizontally */
+    justify-content: flex-end;
+    /* Align the contents to the right */
+    align-items: center;
+    /* Vertically center the contents */
+    height: 50px;
+    /* Set a fixed height for the container (adjust as needed) */
+    padding: 10px;
+    /* Add padding around the container (adjust as needed) */
+}
